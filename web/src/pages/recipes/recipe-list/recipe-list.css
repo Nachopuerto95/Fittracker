@@ -1,0 +1,15 @@
+.page-food{
+    width: fit-content;
+    max-width: 80%;
+    min-width: 400px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.page-food h1{
+
+}
+
+.recipe-page .plane-box{
+    min-height: 500px;
+}

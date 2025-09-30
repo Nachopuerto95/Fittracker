@@ -1,0 +1,23 @@
+.detail-page{
+    position: relative;
+    padding: 60px 0;
+}
+
+.infinite-bg{
+    background-image: url(../../../assets/1446b5db-6afb-47a6-9949-d61105fbf62d.png);
+    background-size: cover;
+    position: fixed;
+    top: 62px;
+    z-index: -1;
+    width: 100%;
+}
+
+
+.workout-text p{
+    width: 100%!important;  
+    margin-bottom: 0;  
+}
+
+.wo-description-bk{
+    color: white;
+}
