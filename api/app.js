@@ -7,12 +7,8 @@ require("./configs/db.config");
 
 const app = express();
 
-// Middlewares
-
 app.use(express.json());
 app.use(cors);
-
-// Routes
 
 app.use("/api/v1", require("./configs/routes.config"));
 app.use("/", require('./web'))
