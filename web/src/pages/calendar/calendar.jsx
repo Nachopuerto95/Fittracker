@@ -182,7 +182,7 @@ function CalendarPage() {
             <div className="plane-box home ">
                 <div className="objetive-circle">
                     <div className="circle-container">
-                        <h2>{Math.round(nutritionData.goalCalories + nutritionData.caloriesBurned - nutritionData.totalKcal)}<h5>kcal</h5></h2>
+                        <h2>{Math.abs(Math.round(nutritionData.goalCalories + nutritionData.caloriesBurned - nutritionData.totalKcal))}<h5>kcal</h5></h2>
                         <>
                         { (nutritionData.totalKcal - nutritionData.caloriesBurned) > nutritionData.goalCalories ? (
                             <h3>LEFTOVER</h3>
